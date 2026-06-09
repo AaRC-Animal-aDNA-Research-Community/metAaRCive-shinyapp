@@ -5,7 +5,7 @@ library(DT)
 library(shinyWidgets)
 
 # read data
-df <- read.csv("aarc_metadata.csv") %>% select(-any_of("X"))
+df <- read.delim("https://raw.githubusercontent.com/AaRC-Animal-aDNA-Research-Community/metAaRCive/refs/heads/main/metAaRCive.txt", sep = "\t", header = TRUE, encoding = "UTF-8")
 
 # format data
 df$sample_age <- as.numeric(df$sample_age)
