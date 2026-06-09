@@ -8,7 +8,7 @@ The app is hosted here: https://aarc.shinyapps.io/metaarcive/
 
 - `metAaRCive/`
   - `rsconnect/` - Deployment configuration for the Shiny app
-  - `www/` - Static assets used by the app, such as images
-  - `app.R` - Main R Shiny application script
+  - `www/` - Directory for images and other assets to be used in the app
+  - `app.R` - Main script for the R Shiny app
   - `get_df.R` - Downloads and filters the latest version of the database from the metAaRCive [repo](https://github.com/AaRC-Animal-aDNA-Research-Community/metAaRCive)
-  - `aarc_metadata.csv` - Generated data file used by the app
+  - `aarc_metadata.csv` - Dataframe generated from `get_df.R`
