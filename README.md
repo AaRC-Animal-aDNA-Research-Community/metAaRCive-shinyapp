@@ -4,7 +4,7 @@ This is the repo for the R shiny app for exploring the [metAaRCive](https://gith
 
 The app is hosted here: https://aarc.shinyapps.io/metaarcive/
 
-Thanks go [Harry Gordon](https://github.com/HGord2022) for developing the original app!
+Thanks go to [Harry Gordon](https://github.com/HGord2022) for developing the original app!
 
 ## Repository structure and files
 
